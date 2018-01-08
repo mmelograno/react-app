@@ -1,0 +1,79 @@
+.navbar-default.header {
+  background-color: #3c8dbc;
+  padding-right: 1em;
+  padding-left: 1em;
+  position: relative !important;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.nav .open > a {
+  color: #fff !important;
+  background-color: #367fa9 !important;
+}
+
+.header-text {
+  color: #fff !important;
+}
+
+.navbar-nav > li > a {
+  color: #fff !important;
+}
+
+.navbar-nav > li > a:hover {
+  color: #fff !important;
+  background-color: #367fa9 !important;
+}
+
+
+.navbar-nav.dropdown-menu {
+  background-color: #fff;
+  color: black;
+}
+
+.navbar-nav.dropdown-menu li:hover a * {
+  background-color: inherit;
+  color: inherit;
+}
+
+.navbar-nav.dropdown-menu li:hover a {
+  background-color: #f4f4f4;
+  color: black;
+}
+
+.custom {
+  position: absolute;
+  top: -7px;
+  text-align: center;
+  font-size: 9px;
+  line-height: .9;
+  right: -12px;
+}
+
+.title {
+  padding: 0;
+  margin: 0 0 0 0px;
+  color: black;
+  font-size: 12px;
+  position: relative;
+}
+
+.message {
+  margin: 0 0 0 0px;
+  font-size: 10px;
+  color: black;
+}
+
+.time {
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 700;
+  position: absolute;
+  right: 0;
+  color: black;
+}
+
+.notification {
+  min-width: 300px;
+}
+

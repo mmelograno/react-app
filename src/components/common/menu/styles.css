@@ -1,0 +1,27 @@
+.sidebar {
+  height: 100%;
+}
+
+.menu-item {
+  font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  padding: 11px 13px 10px;
+  border-left: 3px solid;
+}
+
+.menu-item > a {
+  color: #b8c7ce !important;
+  text-decoration: none;
+  width: 100%;
+}
+
+li:active, a:active {
+  border-left-color: #3c8dbc;
+  color: #fff !important  ;
+  background: #1e282c;
+}
+
+li:hover, a:hover{
+  background-color: #1e282c;
+  color: #fff !important;
+}
