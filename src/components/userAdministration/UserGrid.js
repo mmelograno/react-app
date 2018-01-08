@@ -6,26 +6,28 @@ import UserRow from './UserRow';
 
 const UserGrid = (props) => {
   return (
-    <Table responsive>
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Email</th>
-          <th>Role</th>
-        </tr>
-      </thead>
-      <tbody>
-          {
-            props.users.map(user => {
-              return (
-                <UserRow key={user.id} user={user} />
-              );
-            })
-          }
-      </tbody>
-    </Table>
+    <div style={{ paddingLeft: '20px', paddingRight: '20px' }} >
+      <Table responsive>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Role</th>
+          </tr>
+        </thead>
+        <tbody>
+            {
+              props.users.map(user => {
+                return (
+                  <UserRow key={user.id} user={user} />
+                );
+              })
+            }
+        </tbody>
+      </Table>
+    </div>
   );
 };
 

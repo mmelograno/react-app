@@ -1,18 +1,17 @@
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import * as userActions from '../actions/authenticationActions';
+import * as administrationActions from '../actions/administrationActions';
 
 function mapStateToProps(state) {
   return {
-    loggedUser: state.user.loggedUser,
-    isLoggedIn: state.user.isLoggedIn,
+    users: state.users,
   };
 }
 
 function mapDispatchToProps(dispatch) {
   return {
-    actions: bindActionCreators(userActions, dispatch),
+    actions: bindActionCreators(administrationActions, dispatch),
   };
 }
 
